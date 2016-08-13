@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "107999641D5EAC70007F6FCE"
+               BuildableName = "youtubeAppDynamic.app"
+               BlueprintName = "youtubeAppDynamic"
+               ReferencedContainer = "container:youtubeAppDynamic.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "107999781D5EAC71007F6FCE"
+               BuildableName = "youtubeAppDynamicTests.xctest"
+               BlueprintName = "youtubeAppDynamicTests"
+               ReferencedContainer = "container:youtubeAppDynamic.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "107999831D5EAC71007F6FCE"
+               BuildableName = "youtubeAppDynamicUITests.xctest"
+               BlueprintName = "youtubeAppDynamicUITests"
+               ReferencedContainer = "container:youtubeAppDynamic.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "107999641D5EAC70007F6FCE"
+            BuildableName = "youtubeAppDynamic.app"
+            BlueprintName = "youtubeAppDynamic"
+            ReferencedContainer = "container:youtubeAppDynamic.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "107999641D5EAC70007F6FCE"
+            BuildableName = "youtubeAppDynamic.app"
+            BlueprintName = "youtubeAppDynamic"
+            ReferencedContainer = "container:youtubeAppDynamic.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "107999641D5EAC70007F6FCE"
+            BuildableName = "youtubeAppDynamic.app"
+            BlueprintName = "youtubeAppDynamic"
+            ReferencedContainer = "container:youtubeAppDynamic.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
